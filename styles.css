@@ -1,7 +1,14 @@
-
+.container {
+    position: relative;
+    height: 10p;
+	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .moviePic {
-    width: 250px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
     height: 200; /* Adjust as needed */
     opacity: 0.9;
 }
@@ -10,8 +17,8 @@
     position: absolute;
     top: 50%;
     width: 70%;
-    text-align: right;
+    text-align: center;
     font-size: 18px; /* Adjust as needed */
-    color: black; /* Adjust as needed */
- 
+    color: #333; /* Adjust as needed */
+    transform: translateY(-50%);
 }
