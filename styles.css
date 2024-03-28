@@ -21,3 +21,9 @@
     color: red; 
     transform: translateY(-50%);
 }
+
+.movieDetail {
+
+	width:50;
+	color:red;
+}
